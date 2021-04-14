@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+	<title>Document</title>
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link href="font-awesome/css/all.min.css" rel="stylesheet">
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body class="">
+
+
+	<header>
+		<nav class="navbar navbar-expand-lg">
+			<div class="container">
+			  <span class="navbar-brand" href="#"><b>TravelSite.com</b></span>
+			  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+			    <span class="fa fa-bars"></span>
+			  </button>
+
+			  <div class="collapse navbar-collapse justify-content-between" id="navbarSupportedContent">
+			    
+			    <form class="form-inline my-2 my-lg-0">
+			      <input class="form-control search mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+			    </form>
+			    <ul class="navbar-nav">
+			      <li class="nav-item">
+			        <a class="nav-link pt-1 pb-1" href="#">
+			        	<img class="img-fluid" src="img/dummy-image.jpg" width="30px"> <b>Sanjay Singh</b>
+			        </a>
+			      </li>
+			      <li class="nav-item">
+			        <a class="nav-link" href="#">
+			        	<span class="fa fa-chart-line"></span>
+			        	<span> Feeds</span>
+			        </a>
+			      </li>
+			      <li class="nav-item">
+			        <a class="nav-link" href="#">
+			        	<span class="fa fa-comment-alt"></span>
+			        	<span class="badge badge-pill badge-success">2</span>
+			        </a>
+			      </li>
+			      <li class="nav-item">
+			        <a class="nav-link" href="#">
+			        	<span class="fa fa-bell"></span>
+			        	<span class="badge badge-pill badge-success">4</span>
+			        </a>
+			      </li>
+			      <li class="nav-item">
+			        <a class="nav-link" href="#">
+			        	<span class="fa fa-cog"></span>
+			        </a>
+			      </li>
+			    </ul>
+			  </div>
+		  	</div>
+		</nav>
+
+		<div class="header-banner">
+			<div class="profile">
+				<div class="container">
+					<div class="row">
+						<div class="col-lg-2 col-md-2 col-3">
+							<img  class="img-fluid profile-img" src="img/portfolio1.jpg" >
+						</div>
+						<div class="col-lg-8">
+							<h3>
+								Mahek Jain
+								<a class="btn btn-success">Follow</a>
+							</h3>
+							<p>
+								<span class="fa fa-map-marker-alt"></span>
+								<strong>New Delhi, India</strong>
+							</p>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmodi Ut enim ad minim veniam</p>
+							<div class="icons mt-1">
+								<span>
+									<span class="fa fa-tasks"></span>
+									<span>Wishlist (10)</span>
+								</span>
+								<span>
+									<span class="fa fa-smile"></span>
+									<span>Buddy List (10)</span>
+								</span>
+								<span>
+									<span class="fa fa-user-friends"></span>
+									<span>Following (10)</span>
+								</span>
+								<span>
+									<span class="fa fa-user-friends"></span>
+									<span>Followers (10)</span>
+								</span>
+							</div>
+						</div>
+						<div class="col-lg-2 text-right rank">
+							<h3>Rank: #45</h3>
+							<div class="progress mt-2">
+							  <div class="progress-bar bg-success" role="progressbar" style="width: 45%" aria-valuenow="45" aria-valuemin="0" aria-valuemax="100"></div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</header>
+
+	<section>
+		
+		<div class="container mt-4">			
+			<div class="row">
+				<div class="col-lg-8">
+					
+					<article>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+						tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+						quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+						consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+						cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+						proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+						<!-- tabs -->
+						<ul class="nav nav-tabs mt-4 mb-3" role="tablist">
+						  <li class="nav-item">
+						    <a class="nav-link active" data-toggle="tab" href="#journey">Journey</a>
+						  </li>
+						  <li class="nav-item">
+						    <a class="nav-link" data-toggle="tab" href="#reviews">Reviews</a>
+						  </li>
+						  <li class="nav-item">
+						    <a class="nav-link" data-toggle="tab" href="#photos">Photos</a>
+						  </li>
+						   <li class="nav-item">
+						    <a class="nav-link" data-toggle="tab" href="#trips">Trips</a>
+						  </li>
+						   <li class="nav-item">
+						    <a class="nav-link" data-toggle="tab" href="#stats">Stats</a>
+						  </li>
+						</ul>
+						<div class="tab-content" >
+						  <div class="tab-pane fade show active" id="journey" role="tabpanel">
+						  		
+						  	<div class="">
+								<ul class="StepProgress">
+									<!-- append journey here (app.js) -->
+								</ul>
+							</div>
+
+						  </div>
+						  <div class="tab-pane fade" id="reviews" role="tabpanel">
+						  	Reviews
+						  </div>
+						  <div class="tab-pane fade" id="photos" role="tabpanel">
+						  	Photos
+						  </div>
+						  <div class="tab-pane fade" id="trips" role="tabpanel">
+						  	Trips
+						  </div>
+						  <div class="tab-pane fade" id="stats" role="tabpanel">
+						  	Stats
+						  </div>
+						</div>
+
+					</article>
+
+				</div>
+				<div class="col-lg-4">
+					
+					<aside>
+						<div class="row">
+							<div class="col-lg-12 col-md-12">
+								<div class="blue-box links">
+									<a href="">
+										<span class="fa fa-map-marker-alt"></span>
+										<span>Journey</span>
+									</a>
+									<a href="">
+										<span class="fa fa-pen"></span>
+										<span>Reviews</span>
+									</a>
+									<a href="">
+										<span class="fa fa-camera"></span>
+										<span>Photos</span>
+									</a>
+									<a href="">
+										<span class="fa fa-briefcase"></span>
+										<span>Trips</span>
+									</a>
+									<a href="">
+										<span class="fa fa-chart-bar"></span>
+										<span>Stats</span>
+									</a>
+								</div>
+							</div>
+
+							<div class="col-lg-12 col-md-6">
+								<p class="mb-0 mt-4 grey-header">Popular reviews by Mahek Jain</p>
+								<div class="blue-box">
+									<div class="nicescroll popular-review">
+										<!-- list here -->
+								  	</div>
+								</div>
+							</div>
+
+							<div class="col-lg-12 col-md-6">
+								<p class="mb-0 mt-4 grey-header">Popular trips by Mahek Jain</p>
+								<div class="blue-box">
+									<div class="nicescroll popular-trips">
+										<!-- list here -->
+								  	</div>
+								</div>
+							</div>
+						</div>
+					</aside>
+
+				</div>
+			</div>
+		</div>
+
+	</section>
+
+	
+	<script src="js/jquery.min.js"></script>
+	<script src="js/bootstrap.bundle.min.js"></script>
+	<script src="js/app.js"></script>
+
+	<script>
+		$(document).ready(function(){
+			render_journey_data();
+			render_review_list();
+			render_trips_list();
+		});
+	</script>
+</body>
+</html>

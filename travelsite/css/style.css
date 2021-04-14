@@ -1,0 +1,229 @@
+body{
+    background-color: transparent !important;
+    font-size: 14px;
+}
+*:not(.fa){
+    font-family: system-ui !important;
+}
+.navbar{
+  background: #60b6d0;
+}
+.navbar *:not(input){
+  color: #fff;
+}
+
+.header-banner{
+  background: url(../img/banner.jpg);
+  height: 470px;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: center;
+  position: relative;
+}
+.header-banner .profile{
+  background: #0000006b;
+  padding: 20px 0;
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+}
+.header-banner .profile .profile-img{
+  padding: 0 20px; 
+  width: 100%;
+}
+.header-banner .profile *{
+  color: #fff;
+}
+.header-banner .profile h3,
+.header-banner .profile p{
+  margin-bottom: 0;
+}
+.header-banner .profile .icons > span{
+  margin-right: 25px;
+}
+.header-banner .profile .icons .fa{
+  font-size: 25px;
+  padding-right: 7px;
+}
+
+.content-box{
+  background: #eaeaea;
+  padding: 15px;
+  margin-left: 5px;
+}
+.f-13{
+  font-size: 13px;
+}
+.btn-success{
+  padding: 0 7px;
+  border-radius: 0;
+  line-height: 18px;
+}
+.navbar-nav li.nav-item:not(:last-child) {
+    margin-right: 10px;
+}
+.form-inline .form-control.search{
+  height: 24px;
+  border-radius: 50px;
+  width: 300px;
+  margin-left: 150px;
+  border: 2px solid #000;
+}
+
+.StepProgress {
+  position: relative;
+  padding-left: 15px;
+  list-style: none;
+}
+.StepProgress::before {
+  display: inline-block;
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 2px;
+  width: 10px;
+  height: 100%;
+  border-left: 2px solid #CCC;
+}
+.StepProgress-item {
+  position: relative;
+  counter-increment: list;
+}
+.StepProgress-item:not(:last-child) {
+  padding-bottom: 20px;
+}
+.StepProgress-item::after {
+  content: '\f3c5';
+  display: inline-block;
+  position: absolute;
+  top: 0;
+  left: -19px;
+  width: 17px;
+  height: 17px;
+  background-color: #FFF;
+  font-weight: 900;
+  font-family: "Font Awesome 5 Free";
+  font-size: 20px;
+}
+.StepProgress-item.review::after {
+  content: '\f304';
+}
+.StepProgress-item.comment::after {
+  content: '\f27a';
+}
+.StepProgress-item.recommend::after {
+  content: '\f164';
+}
+.StepProgress-item.follow::after {
+  content: '\f234';
+}
+.blue-box{
+  background: #def0ff;
+  padding: 15px;
+}
+.blue-box.links{
+  padding: 20px;
+}
+.blue-box > a{
+  font-size: 25px;
+  display: block;
+  color: #333;
+}
+/* width */
+.nicescroll::-webkit-scrollbar {
+    width: 7px;
+    height: 7px;
+}
+
+/* Track */
+.nicescroll::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+}
+ 
+/* Handle */
+.nicescroll::-webkit-scrollbar-thumb {
+    background: #ccc; 
+}
+
+/* Handle on hover */
+.nicescroll::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+}
+.nicescroll{
+  max-height: 247px; 
+  overflow: auto;
+}
+.grey-header{
+  background: #e4e4e4;
+  line-height: 28px;
+  text-align: center;
+}
+.nav-tabs{
+  border-bottom: 2px dotted #000;
+}
+.nav-tabs .nav-link {
+    border: 2px solid #333;
+    padding: 3px 10px;
+    color: #333;
+    font-weight: bold;
+    margin-right: 2px;
+}
+.nav-tabs .nav-link.active, .nav-tabs .nav-link:hover{
+    background: #eee;
+    border: 2px solid #333;
+    padding: 3px 10px;
+    color: #333;
+    font-weight: bold;
+    margin-right: 2px;
+}
+.nav-link .badge{
+  vertical-align: super;
+}
+
+
+/*responsive*/
+
+@media only screen and (max-width: 767px){
+  .header-banner {
+    background-size: 223%;
+  }
+  .header-banner .profile .profile-img{
+    padding: 0; 
+  }
+  .search{
+    display: none !important;
+  }
+}
+
+@media only screen and (min-width: 600px) and (max-width: 767px){
+  .search{
+    display: none !important;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px){
+  .header-banner {
+    background-size: 123%;
+  }
+  .search{
+    display: none !important;
+  }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .form-inline .form-control.search {
+    width: 200px;
+    margin-left: 50px;
+  }
+  .rank{
+    margin-top: 3rem;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+
+}
+
+@media only screen and (min-width: 1300px) {
+  
+}
